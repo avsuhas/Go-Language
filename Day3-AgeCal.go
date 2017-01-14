@@ -1,3 +1,5 @@
+/* not a clean code */
+/* code optimization, code clean up need to be done */
 /* complete code for calculating age and writing it on to a file */
 
 package main
@@ -113,8 +115,6 @@ for y1 > currentYear {
 
   fmt.Scanln(&y1)
 
-  // add the line to for user entry
-
  }
 
  fmt.Println("Enter the Birth Month")
@@ -148,7 +148,6 @@ fmt.Scanln(&m1)
 
   fmt.Scanln(&m1)
 
-  // add the line to for user entry
 
  }
 
@@ -178,11 +177,11 @@ fmt.Scanln(&m1)
 
   fmt.Scanln(&d1)
 
-  // add the line to for user entry
+
 
  }
 
-//read the above int values through the scanf since im not having setup here couldn't do it
+
 
 //validation check use while loop
 
