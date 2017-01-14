@@ -1,12 +1,12 @@
+/* complete code for calculating age and writing it on to a file */
+
 package main
 
 import (
-
- "fmt"
- "time"
- "os"
-)
-
+	"fmt"
+ 	"time"
+ 	"os"
+	)
 
 func diff(a, b time.Time) (year, month, day, hour, min, sec int) {
 
@@ -97,13 +97,6 @@ var y1 int
 
 // Your birthday: let's say it's January 2nd, 1980, 3:30 AM
 
-/*y1 = 1980
-
-m1 = 1
-
-d1 = 2
-
-*/
 now := time.Now() 
 currentYear := now.Year()
 currentMonth := now.Month()
