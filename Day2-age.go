@@ -1,4 +1,4 @@
-/* trial code --- Not working completelty */
+/* without validation trial code --- Not working completelty */
 
 
 package main
